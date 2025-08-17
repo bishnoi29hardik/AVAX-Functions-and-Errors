@@ -1,8 +1,8 @@
-# 🎓 ETH-AVAX Functions and Errors – School System Smart Contract
+# 🏫 School Fee Management System – Smart Contract
 
-This smart contract simulates a **School Fee Management System** on the blockchain.  
-It calculates total fees based on the number of students and fee per student.  
-The contract demonstrates the use of **require(), assert(), and revert()** statements for **input validation** and **state checks**.  
+A **School Fee Management System** built in Solidity.  
+This smart contract calculates and manages total student fees using blockchain principles.  
+It demonstrates the use of **require(), assert(), and revert()** statements for **validation** and **error handling**.  
 
 ---
 
@@ -38,16 +38,17 @@ The contract demonstrates the use of **require(), assert(), and revert()** state
 ---
 
 ## 🎯 Learning Outcomes
-- Understand the role of **require()**, **assert()**, and **revert()** in Solidity.  
-- Learn **input validation** and **error handling** in smart contracts.  
-- Gain practical experience deploying and testing a contract in Remix.  
-- Enhance knowledge of **secure Solidity programming practices**.  
+- Understand how to use **require()**, **assert()**, and **revert()** in Solidity.  
+- Implement **input validation** and **error handling** in smart contracts.  
+- Gain hands-on experience with **deploying contracts** in Remix.  
+- Write **secure and reliable Solidity contracts**.  
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how **functions and error handling** improve contract reliability.  
-By mastering these control statements, developers can write **safer, more secure smart contracts** in Solidity.  
+The **School Fee Management System** shows how blockchain can handle fee calculations transparently while ensuring **data validation and contract reliability**.  
+This project strengthens the foundation of writing **safe smart contracts** using Solidity.  
 
 ---
+
 👨‍💻 Author: **Hardik Bishnoi**  
