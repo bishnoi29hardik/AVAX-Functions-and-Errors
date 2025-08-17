@@ -1,31 +1,53 @@
-# ETH-AVAX Functions and Errors
+# 🎓 ETH-AVAX Functions and Errors – School System Smart Contract
 
-## School System Smart Contract Description
-This Smart Contract helps us manage a school system by calculating the total fees based on the number of students and the fee per student. This contract implements require(), assert(), and revert() statements. It effectively shows how to use these statements for input validation and state checks.
+This smart contract simulates a **School Fee Management System** on the blockchain.  
+It calculates total fees based on the number of students and fee per student.  
+The contract demonstrates the use of **require(), assert(), and revert()** statements for **input validation** and **state checks**.  
 
+---
 
-## Requirements
-- Solidity Compiler: Version ^0.8.25
-- setFeePerStudent: Checks if the input _feePerStudent is more than 0 using the require statement.
-- setStudentCount: Checks if the input _studentCount is more than 0 using the require statement.
-- calculateTotalFee: Checks if the inputs _feePerStudent and _studentCount are more than 0 using the require statement. It calculates the total fee based on these inputs.
-- updateTotalFee: Checks if the state variables feePerStudent and studentCount are more than 0 using the require statement. It updates the total fee based on these state variables.
-- assertFeeCondition: Asserts that the feePerStudent state variable is greater than 0.
+## 📌 Features
+- **setFeePerStudent** → Validates input using `require()` and sets the fee.  
+- **setStudentCount** → Validates input using `require()` and sets student count.  
+- **calculateTotalFee** → Pure function that multiplies fee × student count (with validation).  
+- **updateTotalFee** → Updates stored total fee after validation checks.  
+- **getTotalFee** → Returns the current stored total fee.  
+- **assertFeeCondition** → Uses `assert()` to ensure `feePerStudent > 0`.  
 
+---
 
-## Executing program
-To execute this program, we can use Remix, an online Solidity IDE. Follow these steps:
+## 🛠️ Requirements
+- Solidity Compiler: **^0.8.25**  
+- Environment: [Remix IDE](https://remix.ethereum.org)  
 
-- Visit the Remix website.
-- Compile the smart contract.
-- Deploy the compiled contract.
-- Interact with the deployed contract using the Remix interface to set the fee per student, set the student count, calculate the total fee, and update the total fee.
+---
 
-## Learning Outcomes
-- Learn input conditions (require), handle custom errors (revert), and validate internal states (assert).
-- Gain proficiency in deploying contracts and interacting with them via function calls and transactions.
-- Implement input validation and error handling to enhance contract security and reliability.
+## ▶️ Execution (Using Remix)
+1. Visit **[Remix](https://remix.ethereum.org)**.  
+2. Create a new file `School.sol` and paste the contract code.  
+3. Compile the contract with **Solidity ^0.8.25**.  
+4. Deploy the contract.  
+5. Interact with functions:
+   - Call `setFeePerStudent()` → enter fee per student.  
+   - Call `setStudentCount()` → enter number of students.  
+   - Call `calculateTotalFee()` → pass values directly.  
+   - Call `updateTotalFee()` → updates stored state variable.  
+   - Call `getTotalFee()` → view the result.  
+   - Call `assertFeeCondition()` → ensure internal condition holds true.  
 
+---
 
-### Conclusion
-Understanding require, revert, and assert statements enhances our knowledge of Solidity for secure and reliable smart contract development.
+## 🎯 Learning Outcomes
+- Understand the role of **require()**, **assert()**, and **revert()** in Solidity.  
+- Learn **input validation** and **error handling** in smart contracts.  
+- Gain practical experience deploying and testing a contract in Remix.  
+- Enhance knowledge of **secure Solidity programming practices**.  
+
+---
+
+## ✅ Conclusion
+This project demonstrates how **functions and error handling** improve contract reliability.  
+By mastering these control statements, developers can write **safer, more secure smart contracts** in Solidity.  
+
+---
+👨‍💻 Author: **Hardik Bishnoi**  
